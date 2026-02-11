@@ -41,282 +41,438 @@
     </head>
 
     <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-            
-                    <!-- Brand -->
-                    <a class="navbar-brand" href="index.html">
-                        <span class="fw-bolder text-primary">
-                            Dwayne Pugh
-                        </span>
-                    </a>
-            
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-            
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-            
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-            
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">About</a>
-                            </li>
-            
-                            <li class="nav-item">
-                                <a class="nav-link" href="#cohort">Cohort</a>
-                            </li>
-            
-                            <li class="nav-item">
-                                <a class="nav-link btn btn-primary text-white px-3 ms-lg-3"
-                                   href="#cohort">
-                                    Join Waitlist
-                                </a>
-                            </li>
-            
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-            <!-- Header-->
-            <header class="py-5">
-                <div class="container px-5 pb-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-xxl-5">
-                            <!-- Header text content-->
-                            <div class="text-center text-xxl-start">
-                        
-                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
-                                    <div class="text-uppercase">
-                                        DevOps · SRE · Platform Engineering
-                                    </div>
-                                </div>
-                        
-                                <div class="fs-4 fw-light text-muted">
-                                    I help engineers go from “I can code” to “I can ship.”
-                                </div>
-                        
-                                <h1 class="display-3 fw-bolder mb-4">
-                                    <span class="text-gradient d-inline">
-                                        Cohort-Based Training for Real Production Systems
-                                    </span>
-                                </h1>
-                        
-                                <p class="lead text-muted mb-4">
-                                    Hands-on DevOps and Site Reliability Engineering education 
-                                    focused on CI/CD, deployments, Kubernetes, and production confidence.
-                                </p>
-                        
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#cohort">
-                                        Join the Waitlist
-                                    </a>
-                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="#about">
-                                        About the Instructor
-                                    </a>
-                                </div>
-                        
-                            </div>
-                        </div>
-                        <div class="col-xxl-7">
-                            <!-- Header profile picture-->
-                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
-                                <div class="profile bg-gradient-primary-to-secondary">
-                                    <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-                                    <!-- Watch a tutorial on how to do this on YouTube (link)-->
-                                    <img class="profile-img" src="assets/profile.png" alt="..." />
-                                    <div class="dots-1">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                    <div class="dots-2">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                    <div class="dots-3">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                    <div class="dots-4">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <!-- About Section-->
-            <section class="bg-light py-5" id="about">
-                <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder">
-                                    <span class="text-gradient d-inline">About the Instructor</span>
-                                </h2>
-            
-                                <p class="lead fw-light mb-4">
-                                    I’m Dwayne Pugh — a DevOps / SRE practitioner and technical instructor focused on
-                                    real-world platform engineering and production readiness.
-                                </p>
-            
-                                <p class="text-muted mb-4">
-                                    I’ve spent over a decade working with enterprise systems where deployments, reliability, security,
-                                    and automation actually matter. I built this cohort to close the gap I see over and over:
-                                    smart engineers who can write code, but don’t yet know how to ship, operate, and scale
-                                    real systems with confidence.
-                                </p>
-            
-                                <p class="text-muted">
-                                    My teaching style is hands-on and practical: we build real workflows, practice debugging,
-                                    and develop the mental models that separate “I followed a tutorial” from “I can run this in production.”
-                                </p>
-            
-                                <div class="d-flex justify-content-center fs-2 gap-4 mt-4">
-                                    <a class="text-gradient" href="https://www.linkedin.com/in/dpugh143/" target="_blank" rel="noopener">
-                                        <i class="bi bi-linkedin"></i>
-                                    </a>
-                                    <a class="text-gradient" href="https://github.com/dpugh143" target="_blank" rel="noopener">
-                                        <i class="bi bi-github"></i>
-                                    </a>
-                                    <a class="text-gradient" href="mailto:YOUR_EMAIL@DOMAIN.COM">
-                                        <i class="bi bi-envelope-fill"></i>
-                                    </a>
-                                </div>
-            
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </main>
-        <!-- Footer-->
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
-                    </div>
-                </div>
+      <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+          <div class="container px-5">
+    
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">
+              <span class="fw-bolder text-primary">Dwayne Pugh</span>
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="#focus">Focus</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="#work">Work</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="#mentorship">Mentorship</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+    
+                <!-- Optional: subtle cohort link (not a button) -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#cohort">Cohort</a>
+                </li>
+    
+              </ul>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+          </div>
+        </nav>
+    
+        <!-- Header-->
+        <header class="py-5">
+          <div class="container px-5 pb-5">
+            <div class="row gx-5 align-items-center">
+              <div class="col-xxl-5">
+                <!-- Header text content-->
+                <div class="text-center text-xxl-start">
+    
+                  <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
+                    <div class="text-uppercase">DevOps · SRE · Platform Engineering</div>
+                  </div>
+    
+                  <div class="fs-4 fw-light text-muted">
+                    Production systems. Clear thinking. Calm execution.
+                  </div>
+    
+                  <h1 class="display-3 fw-bolder mb-4">
+                    <span class="text-gradient d-inline">
+                      Designing Systems That Last
+                    </span>
+                  </h1>
+    
+                  <p class="lead text-muted mb-4">
+                    I build resilient production systems and help engineers develop clear mental models for how software ships —
+                    from commit to production.
+                  </p>
+    
+                  <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#work">
+                      View Work
+                    </a>
+                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="#about">
+                      About Me
+                    </a>
+                  </div>
+    
+                  <div class="d-flex justify-content-center justify-content-xxl-start fs-2 gap-4 mt-4">
+                    <a class="text-gradient" href="https://www.linkedin.com/in/dpugh143/" target="_blank" rel="noopener">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a class="text-gradient" href="https://github.com/dpugh143" target="_blank" rel="noopener">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a class="text-gradient" href="mailto:YOUR_EMAIL@DOMAIN.COM">
+                      <i class="bi bi-envelope-fill"></i>
+                    </a>
+                  </div>
+    
+                </div>
+              </div>
+    
+              <div class="col-xxl-7">
+                <!-- Header profile picture-->
+                <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                  <div class="profile bg-gradient-primary-to-secondary">
+                    <img class="profile-img" src="assets/profile.png" alt="Profile photo" />
+                    <div class="dots-1">
+                      <!-- SVG Dots -->
+                      <!-- (kept as-is) -->
+                    </div>
+                    <div class="dots-2">
+                      <!-- SVG Dots -->
+                      <!-- (kept as-is) -->
+                    </div>
+                    <div class="dots-3">
+                      <!-- SVG Dots -->
+                      <!-- (kept as-is) -->
+                    </div>
+                    <div class="dots-4">
+                      <!-- SVG Dots -->
+                      <!-- (kept as-is) -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </header>
+    
+        <!-- About Section-->
+        <section class="bg-light py-5" id="about">
+          <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+              <div class="col-xxl-8">
+                <div class="text-center my-5">
+                  <h2 class="display-5 fw-bolder">
+                    <span class="text-gradient d-inline">About</span>
+                  </h2>
+    
+                  <p class="lead fw-light mb-4">
+                    I work in real production systems — the kind where reliability matters and decisions have consequences.
+                  </p>
+    
+                  <p class="text-muted mb-4">
+                    Over the past decade, I’ve worked through major shifts in technology: from large legacy systems to virtualization,
+                    containerization, infrastructure as code, and now into AI-driven environments. Tools change quickly — thinking habits last
+                    much longer.
+                  </p>
+    
+                  <p class="text-muted mb-4">
+                    When I walk into a chaotic situation, my first instinct is stabilization: assess impact, restore service, understand root
+                    cause, and prevent recurrence. Every incident is an opportunity to strengthen the system — through clear communication,
+                    documentation, and proactive improvement.
+                  </p>
+    
+                  <p class="text-muted">
+                    I’m known for patience, systems-level framing, and bringing structure to complex problems — helping teams step back,
+                    connect ideas, and see the bigger picture when complexity starts to cloud judgment.
+                  </p>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- Focus Section -->
+        <section class="py-5" id="focus">
+          <div class="container px-5">
+            <div class="text-center mb-5">
+              <h2 class="fw-bolder">Areas of Focus</h2>
+              <p class="text-muted mb-0">What I build, optimize, and teach through real-world systems work.</p>
+            </div>
+    
+            <div class="row gx-5 justify-content-center">
+              <div class="col-lg-10">
+                <div class="row gx-5">
+    
+                  <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow border-0">
+                      <div class="card-body p-4">
+                        <h5 class="card-title fw-bolder">CI/CD & Deployment Workflows</h5>
+                        <p class="card-text text-muted mb-0">
+                          Delivery paths that reduce firefighting — clear build/release/deploy patterns that teams can reason about.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow border-0">
+                      <div class="card-body p-4">
+                        <h5 class="card-title fw-bolder">Production Systems & Reliability</h5>
+                        <p class="card-text text-muted mb-0">
+                          Fault tolerance, incident response mindset, root cause prevention, and systems that can be operated confidently.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow border-0">
+                      <div class="card-body p-4">
+                        <h5 class="card-title fw-bolder">Infrastructure as Code</h5>
+                        <p class="card-text text-muted mb-0">
+                          Sustainable, modular infrastructure patterns (Terraform, Kubernetes) designed to evolve with future change.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow border-0">
+                      <div class="card-body p-4">
+                        <h5 class="card-title fw-bolder">Systems Thinking & Mentorship</h5>
+                        <p class="card-text text-muted mb-0">
+                          Helping engineers connect the dots — turning “I followed steps” into “I understand structure.”
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </section>
+    
+        <!-- Work Section -->
+        <section class="bg-light py-5" id="work">
+          <div class="container px-5">
+            <div class="text-center mb-5">
+              <h2 class="fw-bolder">Selected Work</h2>
+              <p class="text-muted mb-0">A few public artifacts and references (more coming as I sanitize and publish).</p>
+            </div>
+    
+            <div class="row gx-5 justify-content-center">
+              <div class="col-lg-10">
+                <div class="row gx-5">
+    
+                  <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow border-0">
+                      <div class="card-body p-4">
+                        <h5 class="card-title fw-bolder">GitHub Profile</h5>
+                        <p class="card-text text-muted">
+                          Projects, demos, and code artifacts.
+                        </p>
+                        <a class="text-primary fw-bolder" href="https://github.com/dpugh143" target="_blank" rel="noopener">
+                          View GitHub →
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow border-0">
+                      <div class="card-body p-4">
+                        <h5 class="card-title fw-bolder">CI/CD Mental Model Demo</h5>
+                        <p class="card-text text-muted">
+                          A simplified repo that demonstrates commit → pipeline → deploy with clear structure.
+                        </p>
+                        <span class="text-muted">
+                          (Add link when ready)
+                        </span>
+                        <!-- Example:
+                        <a class="text-primary fw-bolder" href="https://github.com/your/repo" target="_blank" rel="noopener">View Repo →</a>
+                        -->
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow border-0">
+                      <div class="card-body p-4">
+                        <h5 class="card-title fw-bolder">Infrastructure Patterns Lab</h5>
+                        <p class="card-text text-muted">
+                          Notes and examples focused on sustainable IaC design and avoiding long-term anti-patterns.
+                        </p>
+                        <span class="text-muted">(Add link when ready)</span>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow border-0">
+                      <div class="card-body p-4">
+                        <h5 class="card-title fw-bolder">Teaching Artifacts</h5>
+                        <p class="card-text text-muted">
+                          Slides, outlines, and learning resources (sanitized and shareable).
+                        </p>
+                        <span class="text-muted">(Add link when ready)</span>
+                      </div>
+                    </div>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </section>
+    
+        <!-- Mentorship Section -->
+        <section class="py-5" id="mentorship">
+          <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+              <div class="col-lg-10">
+                <div class="text-center mb-5">
+                  <h2 class="fw-bolder">Mentorship</h2>
+                  <p class="text-muted mb-0">
+                    I mentor engineers stepping into more responsibility around workflows, deployments, and production systems.
+                  </p>
+                </div>
+    
+                <div class="card shadow border-0">
+                  <div class="card-body p-4 p-lg-5">
+                    <p class="text-muted mb-4">
+                      If you’re moving from “I can code” to “I can operate,” mentorship can be the difference between guessing
+                      and reasoning. My approach is practical and systems-first: clarify mental models, reduce tool anxiety,
+                      and build calm confidence in real environments.
+                    </p>
+    
+                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                      <a class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="https://www.linkedin.com/in/dpugh143/" target="_blank" rel="noopener">
+                        Message on LinkedIn
+                      </a>
+                      <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="#contact">
+                        Contact
+                      </a>
+                    </div>
+    
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- Cohort Section (Subtle) -->
+        <section class="bg-light py-5" id="cohort">
+          <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+              <div class="col-lg-10">
+                <div class="text-center mb-4">
+                  <h2 class="fw-bolder">Cohort (Pilot)</h2>
+                  <p class="text-muted mb-0">
+                    I’m exploring a small, live cohort focused on production workflow clarity and systems thinking.
+                  </p>
+                </div>
+    
+                <div class="card shadow border-0">
+                  <div class="card-body p-4 p-lg-5">
+                    <p class="text-muted mb-4">
+                      This is intentionally small. The goal is not to grind tools — it’s to build mental models that help you
+                      reason clearly about CI/CD, deployments, and production systems end-to-end.
+                    </p>
+    
+                    <div class="row gx-3 gy-3 align-items-center">
+                      <div class="col-md-7">
+                        <input class="form-control form-control-lg" type="email" placeholder="Email for updates (optional)" aria-label="Email">
+                      </div>
+                      <div class="col-md-5 d-grid">
+                        <button class="btn btn-primary btn-lg fw-bolder" type="button" disabled>
+                          Interest Form (Coming Soon)
+                        </button>
+                      </div>
+                    </div>
+    
+                    <p class="small text-muted mt-3 mb-0">
+                      Prefer a conversation first? Message me on LinkedIn and tell me what part feels fuzzy.
+                    </p>
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- Contact Section -->
+        <section class="py-5" id="contact">
+          <div class="container px-5">
+            <div class="text-center mb-4">
+              <h2 class="fw-bolder">Contact</h2>
+              <p class="text-muted mb-0">Best way to reach me is LinkedIn or email.</p>
+            </div>
+    
+            <div class="d-flex justify-content-center fs-2 gap-4 mt-3">
+              <a class="text-gradient" href="https://www.linkedin.com/in/dpugh143/" target="_blank" rel="noopener">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a class="text-gradient" href="https://github.com/dpugh143" target="_blank" rel="noopener">
+                <i class="bi bi-github"></i>
+              </a>
+              <a class="text-gradient" href="mailto:YOUR_EMAIL@DOMAIN.COM">
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+    
+      </main>
+    
+      <!-- Footer-->
+      <footer class="bg-white py-4 mt-auto">
+        <div class="container px-5">
+          <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+            <div class="col-auto">
+              <div class="small m-0">Copyright &copy; Dwayne Pugh</div>
+            </div>
+            <div class="col-auto">
+              <a class="small" href="#about">About</a>
+              <span class="mx-1">&middot;</span>
+              <a class="small" href="#work">Work</a>
+              <span class="mx-1">&middot;</span>
+              <a class="small" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+      <!-- Bootstrap core JS-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Core theme JS-->
+      <script src="js/scripts.js"></script>
     </body>
 </html>
